@@ -116,3 +116,14 @@ button:hover {
   max-width: 850px;
   max-height: 850px;
 }
+
+
+#operacion{
+  max-width: 500px;
+  max-height: 500px;
+}
+
+.img-operacion{
+  display: flex;
+  justify-content: center;
+}
