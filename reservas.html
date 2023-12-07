@@ -10,7 +10,7 @@
     <title>Centro Veterinario Constitución</title>
 </head>
 
-<body class="container">
+<body class="container-fluid">
     <header>
         <a href="./index.html" id="logo">
             <img src="./img/logo.png" alt="Logo de la página" id="logo" />
@@ -53,23 +53,28 @@
     </header>
 
     <main>
-        <div>
-            <h2>Reserva Tu Hora</h2>
-            <form action="#" method="post" class="form-group">
-                <label for="nombre">Nombre Dueño:</label>
-                <input type="text" id="nombre" name="nombre" class="form-control" required />
+        <div class="reservas-class">
+            <div>
+                <img src="./img/trab2.jpg" id="reservas" alt="reservas" class="img-fluid" />
+            </div>
+            <div>
+                <h2>Reserva Tu Hora</h2>
+                <form action="#" method="post" class="form-group">
+                    <label for="nombre">Nombre Dueño:</label>
+                    <input type="text" id="nombre" name="nombre" class="form-control" required />
 
-                <label for="paciente">Nombre Paciente:</label>
-                <input type="text" id="paciente" name="paciente" class="form-control" required />
+                    <label for="paciente">Nombre Paciente:</label>
+                    <input type="text" id="paciente" name="paciente" class="form-control" required />
 
-                <label for="especie">Especie Paciente:</label>
-                <input type="text" id="especie" name="especie" class="form-control" required />
+                    <label for="especie">Especie Paciente:</label>
+                    <input type="text" id="especie" name="especie" class="form-control" required />
 
-                <label for="fecha">Fecha de Reserva:</label>
-                <input type="date" id="fecha" name="fecha" class="form-control" required />
+                    <label for="fecha">Fecha de Reserva:</label>
+                    <input type="date" id="fecha" name="fecha" class="form-control" required />
 
-                <button type="submit">Buscar Reserva</button>
-            </form>
+                    <button type="submit">Buscar Reserva</button>
+                </form>
+            </div>
         </div>
     </main>
 
@@ -81,9 +86,12 @@
         </div>
 
         <div class="footer-rrss">
-            <a href=""><img src="./img/instagram.png" alt="instagram" id="instagram" class="img-fluid" /></a>
-            <a href=""><img src="./img/facebook.png" alt="fb" id="fb" class="img-fluid" /></a>
-            <a href=""><img src="./img/twitter.png" alt="twiter" id="twiter" class="img-fluid" /></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="./img/instagram.png" alt="instagram"
+                    id="instagram" class="img-fluid" /></a>
+            <a href="https://es-la.facebook.com/" target="_blank"><img src="./img/facebook.png" alt="fb" id="fb"
+                    class="img-fluid" /></a>
+            <a href="https://twitter.com/" target="_blank"><img src="./img/twitter.png" alt="twiter" id="twiter"
+                    class="img-fluid" /></a>
         </div>
     </footer>
 
